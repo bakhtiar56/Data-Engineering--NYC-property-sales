@@ -1,0 +1,40 @@
+{
+  "name": "NYC Sales Dark",
+  "dataColors": ["#22C55E", "#60A5FA", "#F59E0B", "#F43F5E", "#A78BFA", "#34D399", "#F97316", "#38BDF8"],
+  "background": "#0B1220",
+  "foreground": "#E5E7EB",
+  "tableAccent": "#22C55E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#E5E7EB" } },
+          "fontFamily": "Segoe UI Semibold",
+          "fontSize": 14
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#0F172A" } },
+          "transparency": 0
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#243047" } },
+          "radius": 8
+        }],
+        "labels": [{
+          "color": { "solid": { "color": "#CBD5E1" } }
+        }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0B1220" } },
+          "transparency": 0
+        }]
+      }
+    }
+  }
+}
