@@ -2,8 +2,6 @@
 
 End-to-end data engineering and analytics project for NYC property sales. The pipeline is fully automated with an **Airflow DAG** that downloads raw data, ingests it, cleans/transforms it, and produces **staged + analytics-ready tables/views** used by a **Power BI dashboard**.
 
-> Note: The dashboard screenshot is intentionally not included here — add your latest image to the README when ready.
-
 ---
 
 ## Project Overview
@@ -82,21 +80,17 @@ Typical outputs produced by the pipeline include:
 
 ## Repo Structure (example)
 
-Adjust this section to match your actual folders:
-
+- `data` — All the input files (raw/processed)
 - `airflow/` — DAGs and pipeline logic  
-- `sql/` — table/view definitions, indexes, transformations  
+- `scripts/` — scripts for downloading and ingesting the data  
 - `powerbi/` — Power BI report file (`.pbix`) and assets  
 - `docs/` — screenshots, notes, diagrams  
 
 ---
 
 ## Dashboard
-
-Add your screenshot here, for example:
-
 ```md
-![NYC Sales Dashboard](docs/dashboard.png)
+![NYC Sales Dashboard](https://github.com/bakhtiar56/nyc-property-sales/blob/3d7acd8da9a13d7155a0b805d4faea990e5ca8c2/docs/dashboard2025-screenshot.png)
 ```
 
 ---
@@ -112,7 +106,3 @@ Add your screenshot here, for example:
 - Power BI uses slicers, tooltips, filters, and DAX measures with styled visuals.
 
 ---
-
-## License
-
-Add a license here if you plan to open-source this project (MIT is a common choice).
