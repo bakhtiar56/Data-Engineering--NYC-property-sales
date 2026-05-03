@@ -89,9 +89,9 @@ Typical outputs produced by the pipeline include:
 ---
 
 ## Dashboard
-```md
-![NYC Sales Dashboard](![NYC Sales Dashboard](https://raw.githubusercontent.com/bakhtiar56/nyc-property-sales/3d7acd8da9a13d7155a0b805d4faea990e5ca8c2/docs/dashboard2025-screenshot.png))
-```
+
+![NYC Sales Dashboard](https://raw.githubusercontent.com/bakhtiar56/nyc-property-sales/3d7acd8da9a13d7155a0b805d4faea990e5ca8c2/docs/dashboard2025-screenshot.png)
+
 
 ---
 
